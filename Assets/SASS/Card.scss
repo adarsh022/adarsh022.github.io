@@ -47,9 +47,6 @@
 .card-p-top {
   margin: 0;
 }
-// .card-p-bottom {
-//   margin-bottom: 0;
-// }
 
 .card-inner {
   display: grid;
@@ -82,6 +79,8 @@
   p {
     color: #ccd6f6;
     margin-top: 0;
+  }
+  .list-box-top {
   }
   ul {
     list-style: none;

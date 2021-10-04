@@ -79,4 +79,8 @@
   .jobs-about ul p {
     margin: 0.1rem 1rem !important;
   }
+  .jobs {
+    padding-top: 100px !important;
+    padding-bottom: 0 !important;
+  }
 }

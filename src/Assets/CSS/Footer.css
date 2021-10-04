@@ -1,1 +1,7 @@
-/* No CSS */
+footer .logo p {
+  margin-bottom: 0px;
+}
+
+footer P {
+  margin-top: 10px;
+}

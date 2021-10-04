@@ -105,3 +105,12 @@ h3 {
   top: 50%;
   position: absolute;
 }
+
+@media (min-width: 600px) {
+  h1 {
+    font-size: 4rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+}
