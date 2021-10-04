@@ -2,7 +2,9 @@
 
 header {
   width: 100%;
-  // position: absolute;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .header {
@@ -176,18 +178,18 @@ ul {
 
 @media (max-width: 1000px) {
   .mobile {
-    display: block;
+    display: block !important;
   }
   .moniter {
-    display: none;
+    display: none !important;
   }
 }
 
-@media (min-width: 1000px) {
-  .mobile {
-    display: none;
-  }
-  .moniter {
-    display: block;
-  }
-}
+// @media (min-width: 1000px) {
+//   .mobile {
+//     display: none;
+//   }
+//   .moniter {
+//     display: block;
+//   }
+// }
