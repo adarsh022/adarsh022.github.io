@@ -2,6 +2,9 @@
   max-width: 900px;
   padding: 100px 0;
   margin: auto;
+  h3 {
+    margin: 0;
+  }
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -10,15 +13,21 @@
   .container-box {
     display: flex;
     flex-direction: column;
-    height: 80%;
+    height: 82%;
     justify-content: space-between;
     border: 1px solid #112240;
     background-color: #112240;
     border-radius: 0.5rem;
     padding: 1.5rem;
     .container-box-2 {
+      .card-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
       img {
-        color: white;
+        height: 2.5rem;
+        color: aliceblue;
       }
     }
   }

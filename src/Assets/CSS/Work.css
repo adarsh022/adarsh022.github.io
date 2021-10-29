@@ -4,6 +4,10 @@
   margin: auto;
 }
 
+.work h3 {
+  margin: 0;
+}
+
 .work .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -13,7 +17,7 @@
 .work .container-box {
   display: flex;
   flex-direction: column;
-  height: 80%;
+  height: 82%;
   justify-content: space-between;
   border: 1px solid #112240;
   background-color: #112240;
@@ -21,8 +25,15 @@
   padding: 1.5rem;
 }
 
+.work .container-box .container-box-2 .card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .work .container-box .container-box-2 img {
-  color: white;
+  height: 2.5rem;
+  color: aliceblue;
 }
 
 .work h3 {
