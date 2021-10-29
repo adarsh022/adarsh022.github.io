@@ -53,7 +53,7 @@
   .container {
     display: block !important;
   }
-  .container-box {
+  .work-card {
     margin-bottom: 1rem;
   }
 
@@ -71,6 +71,7 @@
   display: inline-block;
   position: relative;
   background: none;
+  height: 100%;
   border: none;
   color: #fff;
   font-size: 18px;
