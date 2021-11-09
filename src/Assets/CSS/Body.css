@@ -99,8 +99,8 @@ h3 {
   content: '';
   display: inline-block;
   width: 5rem;
-  height: 2px;
-  background: #233554;
+  height: 1px;
+  background: white;
   margin-left: 20px;
   top: 50%;
   position: absolute;
