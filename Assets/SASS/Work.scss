@@ -15,9 +15,9 @@
     flex-direction: column;
     height: 82%;
     justify-content: space-between;
-    border: 1px solid #112240;
-    background-color: #112240;
-    border-radius: 0.5rem;
+    // border: 1px solid #112240;
+    // background-color: #112240;
+    // border-radius: 0.5rem;
     padding: 1.5rem;
     .container-box-2 {
       .card-header {
@@ -55,6 +55,7 @@
     }
   }
 }
+
 @media (max-width: 600px) {
   .text-rotate {
     display: none !important;
